@@ -2,6 +2,10 @@ public class Main {
     public static void main(String[] args) {
         Dog dogInstance = new Dog("Buddy",3);
         Cat catInstance = new Cat("Luffy", 2);
+        Child childInstance = new Child();
+        childInstance.setSecretData("this is a secret");
+        childInstance.accessSecretData();
+
 
 
         System.out.println("Information about the Dog:");
@@ -14,6 +18,7 @@ public class Main {
         System.out.println("Make: " + car1.make);
         System.out.println("Year: " + car1.year);
         System.out.println("Model: " + car1.model);
+
 
 
     }
